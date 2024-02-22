@@ -1,0 +1,15 @@
+# This are the Linux Commands that I needed to run in the final stage of the project:
+
+docker run -d -p 8000:8000 hyper-web-app 
+docker container ls
+docker stop e3e613057c21 
+docker container ls
+docker rm e3e613057c21 
+docker stop 4c51a9f3d52a 
+docker rm 4c51a9f3d52a 
+docker container ls
+docker stop b90c1d8b0659
+docker rm  b90c1d8b0659
+docker container ls
+docker image ls
+docker rmi hyper-web-app
